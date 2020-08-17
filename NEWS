@@ -1,0 +1,11 @@
+The NEWS file was generated from xterm.log.html, which serves as the changelog
+for xterm.
+--------------------------------------------------------------------------------
+                            Patch #358 - 2020/07/12
+
+     * correct logic for decodeTerminalID changes in patch #357 (report by
+       "Chartreuse").
+     * modify  makefile to use plink.sh when linking test-programs, to fix
+       build when using pcre (report by H Merijn Brand)
+     * build-fix for test_ptydata program (patch by H Merijn Brand)
+
